@@ -58,6 +58,9 @@
   z-index: 1;
 
   /* non-critical apperance styles */
+  padding: 4em;
+  background-image: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(248,234,239,1) 35%,rgba(237,195,211,1) 100%);
+  background-size: 200%;
 }
 
 /* Nav Trigger */
@@ -83,7 +86,7 @@ label[for="nav-trigger"] {
 
 /* Make the Magic Happen */
 .nav-trigger + label, .site-wrap {
-  transition: left 0.2s;
+  transition: left 0.5s;
 }
 
 .nav-trigger:checked + label {

@@ -3,9 +3,9 @@ HTML, BODY {
 }
 
 BODY {
-  background: #082330;
+  background: #ffffff;
   background-size: .12em 100%;
-  font: 16em/1 Arial;
+  font: 24em/1 Arial;
 }
 
 .text--line {
@@ -23,19 +23,19 @@ svg {
   stroke: white;
   stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  -webkit-animation: stroke-offset 9s infinite linear;
-          animation: stroke-offset 9s infinite linear;
+  -webkit-animation: stroke-offset 15s infinite linear;
+          animation: stroke-offset 15s infinite linear;
 }
 .text-copy:nth-child(1) {
-  stroke: #360745;
+  stroke: #EEEC01;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #D61C59;
+  stroke: #FF358B;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
-  stroke: #E7D84B;
+  stroke: #AEEE00;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
@@ -43,7 +43,7 @@ svg {
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: #1B8798;
+  stroke: #01B0F0;
   stroke-dashoffset: 35%;
 }
 
