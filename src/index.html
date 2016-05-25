@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/navi.css">
+  <link rel="stylesheet" href="css/bar.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -46,11 +47,20 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 <div class="site-wrap">
+    <div class="bar">
+        <a href="login.html">LOGIN</a> | <a href="random.html">RANDOM</a> | <a href="suche.html">SUCHE</a>
+    </div>
+
+
   <div class="container">
     <div class="row">
-      <div class="five columns" style="margin-top: 5%; margin-bottom: 5%;">
+      <div class="four columns" style="margin-top: 5%; margin-bottom: 5%;">
         <img src="./images/header.svg" alt="header" width="u-max-full-width" />
+      </div>
+      <div class="eight columns">
+        <iframe src="./header/header.html" width="100%" height="200px" allowTransparency="true" style="border:none;"></iframe>
       </div>
     </div>
     <div class="row">
@@ -79,6 +89,29 @@
         </p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <!--RANDOM COCKTAILS *PHP-->
+          <h1 style="text-align:center;">Zufallscocktail</h1>
+          <img style="box-shadow: 3px 3px 28px 0px rgba(0,0,0,0.5); " src="./images/darkandstormy.jpg" alt="Coks" class="u-full-width" />
+          <h5>Geschmack</h5>
+          <p>
+            Ein Dark and Stormy besteht aus Rum und Ginger Beer. Erfunden wurde er von Gosling’s Rum auf den Bermudas, er ist der Signature Drink der Brennerei. Offiziell darf sich eine Mischung aus Ginger Beer und Rum also nur Dark and Stormy nennen, wenn er aus Gosling’s Rum und Gosling’s Ginger Beer besteht. Aber unter uns: Mit anderen Varianten geht’s natürlich auch.
+          </p>
+          <h5>Zutaten</h5>
+          <ul>
+            <li><em>6 cl Rum</em></li>
+            <li><em>18 cl Ginger Beer</em></li>
+          </ul>
+          <h5>Zubereitung</h5>
+          <p>
+            Kippt zuerst das Ginger Beer auf Eis in ein durchsichtiges Glas und gießt anschließend langsam den Rum hinein. Er wird auf dem Ginger Beer floaten und so ein Farbenspiel aus weiß (stormy) und Rum-braun (dark) erzeugen.
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 

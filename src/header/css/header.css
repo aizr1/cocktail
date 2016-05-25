@@ -5,11 +5,16 @@ HTML, BODY {
 BODY {
   background: transparent;
   background-size: .12em 100%;
-  font: 24em/1 Josephin;
+  font: 24em/1 'Trochut';
 }
 
 .text--line {
   font-size: .5em;
+}
+
+.text--line2 {
+  font-size: .5em;
+  fill: #FF358B;
 }
 
 svg {
@@ -22,16 +27,16 @@ svg {
   fill: none;
   stroke: white;
   stroke-dasharray: 7% 28%;
-  stroke-width: 3px;
-  -webkit-animation: stroke-offset 15s infinite linear;
-          animation: stroke-offset 15s infinite linear;
+  stroke-width: 4px;
+  -webkit-animation: stroke-offset 10s infinite ease;
+          animation: stroke-offset 10s infinite ease;
 }
 .text-copy:nth-child(1) {
   stroke: #EEEC01;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #FF358B;
+  stroke: #FFA500;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
@@ -39,7 +44,7 @@ svg {
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #EFEAC5;
+  stroke: #bb00ff;
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {

@@ -1,0 +1,38 @@
+/* TOPBAR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Resident Top Bar.
+*/
+
+.bar {
+position: absolute;
+top: 15px;
+left: 60px;
+width: auto;
+color: #ffffff;
+height: 30px;
+text-align: left;
+padding-top: 4px;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+z-index: 100;
+}
+
+.bar a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+
+.bar a:hover {
+color: #FF358B;
+transition: 0.5s ease color;
+}
+
+.bar a:hover::after {
+color: white;
+transition: 0.5s ease color;
+}
