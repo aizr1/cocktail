@@ -53,14 +53,18 @@
         <a href="login.html">LOGIN</a> | <a href="random.html">RANDOM</a> | <a href="suche.html">SUCHE</a>
     </div>
 
+  <div class="container" style="background-image: url('');">
+    <div class="twelve columns" style="margin-top: 5%; margin-bottom: 5%;">
+    </div>
+    <div class="twelve columns">
+      <iframe src="./header/header.html" width="100%" height="200px" allowTransparency="true" style="border:none;"></iframe>
+    </div>
+  </div>
 
   <div class="container">
     <div class="row">
       <div class="four columns" style="margin-top: 5%; margin-bottom: 5%;">
-        <img src="./images/header.svg" alt="header" width="u-max-full-width" />
-      </div>
-      <div class="eight columns">
-        <iframe src="./header/header.html" width="100%" height="200px" allowTransparency="true" style="border:none;"></iframe>
+        <img style="border: none; box-shadow: none; transform: none;"src="./images/header.svg" alt="header" width="u-max-full-width" />
       </div>
     </div>
     <div class="row">
@@ -74,9 +78,8 @@
         <p>
           Simpelste Cocktails wie ihr sie noch nie gesehen, geschmeckt und gefühlt habt. 2 Zutaten sollten reichen, um euch ans andere Ende der Welt zu katapultieren.
         </p>
-        <h1>Lorem ipsum</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h1>Was ist ein Cocktail?</h1>
+        <p><strong>Wikipedia sagt: </strong><em>Ein Cocktail [ˈkɔkteɪl, engl. ˈkɒkteɪl] ist ein alkoholisches Mischgetränk. Typischerweise bestehen Cocktails aus zwei oder mehr Zutaten, darunter mindestens einer Spirituose. Sie werden mit Eis im Cocktail-Shaker, Rührglas oder direkt im Cocktailglas einzeln frisch zubereitet, in einem passenden Glas angerichtet und sofort serviert und getrunken. Üblicherweise ist jedes Cocktail-Rezept mit einem einprägsamen Namen versehen. Einige Cocktails sind international bekannt und werden von Barkeepern weltweit gemixt.</em>
         </p>
       </div>
       <div class="six columns">
@@ -94,7 +97,9 @@
       <div class="twelve columns">
         <!--RANDOM COCKTAILS *PHP-->
           <h1 style="text-align:center;">Zufallscocktail</h1>
-          <img style="box-shadow: 3px 3px 28px 0px rgba(0,0,0,0.5); " src="./images/darkandstormy.jpg" alt="Coks" class="u-full-width" />
+          <center>
+            <img style="position: auto;" src="./images/darkandstormy.jpg" alt="Coks" class="u-full-width" />
+          </center>
           <h5>Geschmack</h5>
           <p>
             Ein Dark and Stormy besteht aus Rum und Ginger Beer. Erfunden wurde er von Gosling’s Rum auf den Bermudas, er ist der Signature Drink der Brennerei. Offiziell darf sich eine Mischung aus Ginger Beer und Rum also nur Dark and Stormy nennen, wenn er aus Gosling’s Rum und Gosling’s Ginger Beer besteht. Aber unter uns: Mit anderen Varianten geht’s natürlich auch.
@@ -113,6 +118,38 @@
     </div>
 
   </div>
+  <div class="container" style="background-color: #111;">
+      <div class="row">
+        <div class="footer">
+        <div class="four columns">
+          <h5><strong>SITEMAP</strong></h5>
+          <ul>
+          <li><a href="./index.html">Heimat</a></li>
+          <li><a href="./cocktailoverview.html">Cocktailübersicht</a></li>
+          <li><a href="./cocktails.html">Cocktailliste</a>
+          <li><a href="./zutaten.html">Zutaten</a></li>
+          <li><a href="./favoriten.html">Favoriten</a></li>
+          <li><a href="./impressum.html">Impressum</a></li>
+          </ul>
+        </div>
+        <div class="four columns">
+          <h5><strong>DATUM</strong></h5>
+          <p id="datum"></p>
+          <script type="text/javascript">
+          var datum = new Date();
+          var heute = datum.getDate()+ "." + (datum.getMonth()+ 1)+"." + datum.getFullYear()+" " +datum.getHours() +":" + datum.getMinutes() ;
+          document.getElementById("datum").innerHTML = heute;
+          </script>
+        </div>
+        <div class="four columns">
+          <h5><strong>SHOUTS</strong></h5>
+          <p>
+            Made with: Skeleton, JS, HTML5, CSS3 and some Githubsnippets.
+          </p>
+        </div>
+  </div>
+</div>
+</div>
 </div>
 
 <!-- End Document
