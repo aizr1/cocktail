@@ -35,7 +35,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <ul class="navigation">
     <li class="nav-item"><a href="./index.html">Heimat</a></li>
-    <li class="nav-item"><a href="./cocktails.html">Cocktails</a></li>
+    <li class="nav-item"><a href="./cocktailoverview.html">Cocktails</a></li>
     <li class="nav-item"><a href="./zutaten.html">Zutaten</a></li>
     <li class="nav-item"><a href="./favoriten.html">Favoriten</a></li>
     <li class="nav-item"><a href="./impressum.html">Impressum</a></li>
@@ -381,9 +381,43 @@
 
   </div>
 
-</div>
 
-<!-- End Document
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" style="background-color: #111; z-index: 4;">
+    <div class="row">
+      <div class="footer">
+        <div class="four columns">
+          <h5><strong>SITEMAP</strong></h5>
+          <ul>
+            <li><a href="./index.html">Heimat</a></li>
+            <li><a href="./cocktailoverview.html">Cocktailübersicht</a></li>
+            <li><a href="./cocktails.html">Cocktailliste</a>
+              <li><a href="./zutaten.html">Zutaten</a></li>
+              <li><a href="./favoriten.html">Favoriten</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </div>
+          <div class="four columns">
+            <h5><strong>DATUM</strong></h5>
+            <p id="datum"></p>
+            <script type="text/javascript">
+            var datum = new Date();
+            var heute = datum.getDate()+ "." + (datum.getMonth()+ 1)+"." + datum.getFullYear()+" " +datum.getHours() +":" + datum.getMinutes() ;
+            document.getElementById("datum").innerHTML = heute;
+            </script>
+          </div>
+          <div class="four columns">
+            <h5><strong>SHOUTS</strong></h5>
+            <p>
+              Made with: Skeleton, JS, HTML5, CSS3 and some Githubsnippets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
